@@ -280,7 +280,7 @@ function Brand({ collapsed = false }: { collapsed?: boolean }) {
   return (
     <Link href="/dashboard/workspace" className={cn("group flex items-center gap-3", collapsed && "justify-center")}>
       <div className="overflow-hidden rounded-2xl border border-primary/15 bg-white/80 p-1 shadow-[0_18px_36px_-24px_rgba(13,105,106,0.55)]">
-        <Image src="/logo.jpg" alt="김비서 로고" width={40} height={40} className="h-10 w-10 rounded-xl object-cover" />
+        <Image src="/logo.png" alt="김비서 로고" width={40} height={40} className="h-10 w-10 rounded-xl object-cover" />
       </div>
       {!collapsed ? (
         <div className="min-w-0">

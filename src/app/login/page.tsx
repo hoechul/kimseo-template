@@ -143,7 +143,7 @@ export default function LoginPage() {
             <div className="space-y-4 text-center">
               <div className="mx-auto flex h-24 w-24 items-center justify-center overflow-hidden rounded-[1.75rem] border border-primary/10 bg-white/85 shadow-[0_24px_40px_-26px_rgba(13,105,106,0.45)]">
                 <Image
-                  src="/logo.jpg"
+                  src="/logo.png"
                   alt="김비서 로고"
                   width={80}
                   height={80}
