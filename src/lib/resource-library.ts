@@ -1,0 +1,3 @@
+// 자료실 Drive 폴더 ID. 비우면 GOOGLE_DRIVE_ROOT_FOLDER_ID 로 폴백. (설정: docs/GOOGLE_DRIVE_SETUP.md)
+export const RESOURCE_LIBRARY_DRIVE_FOLDER_ID =
+  process.env.RESOURCE_LIBRARY_DRIVE_FOLDER_ID ?? process.env.GOOGLE_DRIVE_ROOT_FOLDER_ID ?? "";

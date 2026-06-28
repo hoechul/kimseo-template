@@ -1,0 +1,13 @@
+{
+  "name": "김비서",
+  "short_name": "김비서",
+  "description": "김비서 - 내부 운영 대시보드",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6e6e",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/apple-icon.svg", "sizes": "180x180", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

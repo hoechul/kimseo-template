@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (실제 키가 든 .env.local 은 커밋 금지, 예시 파일만 커밋)
+.env*
+!.env.example
+
+# service account keys
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!components.json
+!vercel.json
+!public/manifest.webmanifest
+
+# omc
+.omc/
+
+# supabase CLI 로컬 캐시 (링크 정보 등 — 커밋 금지)
+supabase/.temp
+supabase/.branches
+
+# vercel
+.vercel
+
+# newsletter runtime artifacts
+/public/screenshots/
+/data/newsletter/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
