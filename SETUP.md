@@ -159,13 +159,13 @@ npm run setup:admin
 ========================================
   🔑 관리자 계정 준비 완료!
   👤 로그인 ID : admin
-  🔒 비밀번호  : jadong!
+  🔒 비밀번호  : claudeai!
 ========================================
 ```
 
 | 로그인 ID | 비밀번호 |
 |-----------|----------|
-| **admin** | **jadong!** |
+| **admin** | **claudeai!** |
 
 > 다른 값으로 만들고 싶으면 `npm run setup:admin -- 원하는ID 원하는비밀번호` (비밀번호는 **6자 이상**).
 > 같은 명령을 다시 실행하면 비밀번호가 재설정됩니다.
@@ -178,17 +178,17 @@ npm run setup:admin
 npm run dev
 ```
 
-서버가 켜질 때 터미널에 **기본 로그인(`admin` / `jadong!`)** 이 배너로 강조 표시됩니다.
+서버가 켜질 때 터미널에 **기본 로그인(`admin` / `claudeai!`)** 이 배너로 강조 표시됩니다.
 브라우저에서 **http://localhost:3000** 접속 → 로그인 화면에서:
 
 - **로그인 ID**: `admin`  ← 이메일이 아니라 **ID** 를 그대로 입력합니다
-- **비밀번호**: `jadong!`
+- **비밀번호**: `claudeai!`
 
 🎉 로그인 성공! 이제 김비서가 내 컴퓨터에서 돌아갑니다.
 (서버를 끄려면 터미널에서 `Ctrl + C`, 다시 켜려면 `npm run dev`)
 
 > 🔐 **로그인했으면 비밀번호부터 바꾸세요.** 왼쪽 사이드바 **맨 아래의 '내 이름'을 클릭** →
-> **마이페이지**에서 비밀번호를 변경할 수 있습니다. (기본값 `jadong!` 은 누구나 아는 값이라 꼭 변경 권장)
+> **마이페이지**에서 비밀번호를 변경할 수 있습니다. (기본값 `claudeai!` 은 누구나 아는 값이라 꼭 변경 권장)
 
 ---
 
@@ -197,8 +197,8 @@ npm run dev
 - [ ] `git --version` / `node -v`(20.9+) / `supabase --version` 이 모두 나온다
 - [ ] `npm install` 이 에러 없이 끝났다
 - [ ] `supabase db push` 가 에러 없이 끝났고, Table Editor 에 테이블이 보인다
-- [ ] `npm run setup:admin` 으로 기본 계정(**admin / jadong!**)이 생성됐다
-- [ ] `npm run dev` 후 http://localhost:3000 에서 **admin / jadong!** 로 로그인된다
+- [ ] `npm run setup:admin` 으로 기본 계정(**admin / claudeai!**)이 생성됐다
+- [ ] `npm run dev` 후 http://localhost:3000 에서 **admin / claudeai!** 로 로그인된다
 - [ ] 로그인 후 사이드바 하단 '내 이름' → 마이페이지에서 **비밀번호를 변경**했다
 
 ---
@@ -236,7 +236,7 @@ npm run dev
 
 - **`supabase db push` 에서 권한/연결 오류** → `supabase login` 과
   `supabase link --project-ref ...` 를 다시 확인하세요. 새 프로젝트면 준비(1~2분)를 기다린 뒤 재시도.
-- **로그인이 안 됨** → ① 이메일이 아니라 **ID `admin` / 비밀번호 `jadong!`** 로 시도했는지 확인,
+- **로그인이 안 됨** → ① 이메일이 아니라 **ID `admin` / 비밀번호 `claudeai!`** 로 시도했는지 확인,
   ② `npm run setup:admin` 을 다시 실행해 기본 계정을 재생성(비밀번호 재설정)한 뒤 다시 시도.
 - **비밀번호가 너무 짧다는 오류** → 비밀번호는 **6자 이상**이어야 합니다.
 - **`npm run build`/실행 실패** → `.env.local` 에 Supabase 값(URL/anon/service_role)이 채워졌는지 확인.

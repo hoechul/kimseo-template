@@ -12,7 +12,7 @@ import { createClient } from "@supabase/supabase-js";
 
 // 강의/학습용 기본 관리자 계정 (외우기 쉽게 고정). 로그인 후 마이페이지에서 꼭 변경하세요.
 const DEFAULT_LOGIN_ID = "admin";
-const DEFAULT_PASSWORD = "jadong!"; // 6자 이상(Supabase Auth 최소 정책) 충족
+const DEFAULT_PASSWORD = "claudeai!"; // 6자 이상(Supabase Auth 최소 정책) 충족
 
 // .env.local 을 직접 읽어 환경변수로 로드 (Node 버전 무관)
 function loadEnvFile(path) {

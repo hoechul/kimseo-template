@@ -12,7 +12,7 @@ console.log(C.cyan + line + C.reset);
 console.log(C.cyan + "  🔑  " + C.bold + "김비서 기본 로그인" + C.reset + C.gray + "  (강의용 고정 계정)" + C.reset);
 console.log(C.cyan + "  ──────────────────────────────────────" + C.reset);
 console.log("      👤  ID  :  " + C.bold + C.yellow + "admin" + C.reset);
-console.log("      🔒  PW  :  " + C.bold + C.yellow + "jadong!" + C.reset);
+console.log("      🔒  PW  :  " + C.bold + C.yellow + "claudeai!" + C.reset);
 console.log(C.cyan + line + C.reset);
 console.log("  🌐  " + C.green + "http://localhost:3000" + C.reset + " 에서 위 정보로 로그인하세요.");
 console.log("  👉  " + C.bold + "로그인 후" + C.reset + " 왼쪽 사이드바 맨 아래 " + C.bold + "'내 이름'" + C.reset +
