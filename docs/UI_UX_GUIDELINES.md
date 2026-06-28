@@ -1,4 +1,4 @@
-# YUN Secretary UI/UX 가이드
+# KIM Secretary UI/UX 가이드
 
 이 문서는 `kim-secretary` 프로젝트의 실제 구현을 기준으로 추출한 UI/UX 규칙이다. 앞으로 새 프로젝트를 만들 때 "비슷하게"가 아니라, 이 문서의 구조와 원칙을 기본값으로 삼는다.
 

@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 
 const DAY_LABELS = ["월", "화", "수", "목", "금", "토", "일"];
 
-export const TASK_DRAG_MIME = "application/x-yun-task-id";
+export const TASK_DRAG_MIME = "application/x-kim-task-id";
 
 interface MiniCalendarProps {
   currentMonth: Date;

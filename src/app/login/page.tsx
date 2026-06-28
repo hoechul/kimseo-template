@@ -167,7 +167,7 @@ export default function LoginPage() {
                     id="loginId"
                     name="loginId"
                     type="text"
-                    placeholder="예: yun.manager"
+                    placeholder="예: kim.manager"
                     value={loginId}
                     onChange={(event) => setLoginId(event.target.value)}
                     autoFocus
