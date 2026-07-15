@@ -145,9 +145,9 @@ export default function LoginPage() {
                 <Image
                   src="/logo.png"
                   alt="김비서 로고"
-                  width={80}
-                  height={80}
-                  className="h-20 w-20 rounded-[1.25rem] object-cover"
+                  width={232}
+                  height={97}
+                  className="h-auto w-20 rounded-[1.25rem] object-contain"
                 />
               </div>
               <div className="space-y-1.5">
