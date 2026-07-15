@@ -64,7 +64,7 @@ export function EmployeeFilter({
     cn(
       "inline-flex min-w-fit items-center gap-2 rounded-[1.15rem] px-4 py-2 text-sm font-medium transition-all",
       active
-        ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(13,105,106,0.72)]"
+        ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(23,81,208,0.72)]"
         : "text-muted-foreground hover:bg-muted hover:text-foreground"
     );
 
@@ -116,7 +116,7 @@ export function EmployeeFilter({
                 className={cn(
                   "flex w-full items-center gap-2 rounded-2xl border px-3 py-2.5 text-left transition-all",
                   active
-                    ? "border-primary bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(13,105,106,0.72)]"
+                    ? "border-primary bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(23,81,208,0.72)]"
                     : "border-border/50 bg-background/65 hover:border-primary/10 hover:bg-background"
                 )}
               >

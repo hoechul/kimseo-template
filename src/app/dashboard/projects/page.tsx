@@ -583,7 +583,7 @@ export default function ProjectsPage() {
                   className={cn(
                     "inline-flex min-w-fit items-center gap-2 rounded-[1.15rem] px-4 py-2 text-sm font-medium transition-all",
                     selectedType === type
-                      ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(13,105,106,0.72)]"
+                      ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(23,81,208,0.72)]"
                       : "text-muted-foreground hover:bg-muted hover:text-foreground"
                   )}
                 >
@@ -622,7 +622,7 @@ export default function ProjectsPage() {
                     className={cn(
                       "inline-flex min-w-fit items-center gap-2 rounded-[1.15rem] px-4 py-2 text-sm font-medium transition-all",
                       isActive
-                        ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(13,105,106,0.72)]"
+                        ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(23,81,208,0.72)]"
                         : "text-muted-foreground hover:bg-muted hover:text-foreground"
                     )}
                   >

@@ -213,7 +213,7 @@ export function ResourceLibraryForm({
             <div
               className={`rounded-[1.25rem] border border-dashed px-4 py-5 transition-all ${
                 dragOver
-                  ? "border-primary bg-primary/10 shadow-[0_0_0_4px_rgba(13,105,106,0.08)]"
+                  ? "border-primary bg-primary/10 shadow-[0_0_0_4px_rgba(23,81,208,0.08)]"
                   : "border-border/80 bg-muted/10"
               }`}
               onDragEnter={handleDragEnter}

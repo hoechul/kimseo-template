@@ -23,7 +23,7 @@ export default function DashboardLayout({
 
   return (
     <MaskingProvider>
-      <div className="flex h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(13,110,110,0.08),_transparent_30%),radial-gradient(circle_at_top,_rgba(180,131,83,0.08),_transparent_28%)]">
+      <div className="flex h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(23,81,208,0.08),_transparent_30%),radial-gradient(circle_at_top,_rgba(99,149,255,0.08),_transparent_28%)]">
         <SessionGuard />
         <NavHistoryRecorder />
         <MaskModeIndicator />

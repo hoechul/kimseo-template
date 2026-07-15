@@ -135,13 +135,13 @@ export default function LoginPage() {
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-10">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(13,105,106,0.12),_transparent_32%),radial-gradient(circle_at_bottom,_rgba(180,131,83,0.14),_transparent_28%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(23,81,208,0.12),_transparent_32%),radial-gradient(circle_at_bottom,_rgba(99,149,255,0.14),_transparent_28%)]" />
 
-      <Card className="relative z-10 w-full max-w-md border-none py-0 shadow-[0_28px_80px_-42px_rgba(13,77,77,0.32)]">
+      <Card className="relative z-10 w-full max-w-md border-none py-0 shadow-[0_28px_80px_-42px_rgba(16,52,140,0.32)]">
         <CardContent className="p-8 sm:p-10">
           <div className="space-y-8">
             <div className="space-y-4 text-center">
-              <div className="mx-auto flex h-24 w-24 items-center justify-center overflow-hidden rounded-[1.75rem] border border-primary/10 bg-white/85 shadow-[0_24px_40px_-26px_rgba(13,105,106,0.45)]">
+              <div className="mx-auto flex h-24 w-24 items-center justify-center overflow-hidden rounded-[1.75rem] border border-primary/10 bg-white/85 shadow-[0_24px_40px_-26px_rgba(23,81,208,0.45)]">
                 <Image
                   src="/logo.png"
                   alt="김비서 로고"

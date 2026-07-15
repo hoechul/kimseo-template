@@ -32,7 +32,7 @@ export function TasksViewTabs({
             className={cn(
               "inline-flex items-center gap-2 rounded-[1rem] px-3.5 py-1.5 text-sm font-medium transition-all",
               isActive
-                ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(13,105,106,0.72)]"
+                ? "bg-primary text-primary-foreground shadow-[0_12px_28px_-18px_rgba(23,81,208,0.72)]"
                 : "text-muted-foreground hover:bg-muted hover:text-foreground"
             )}
             aria-pressed={isActive}

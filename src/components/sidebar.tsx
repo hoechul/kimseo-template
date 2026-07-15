@@ -279,7 +279,7 @@ function Brand({ collapsed = false }: { collapsed?: boolean }) {
 
   return (
     <Link href="/dashboard/workspace" className={cn("group flex items-center gap-3", collapsed && "justify-center")}>
-      <div className="overflow-hidden rounded-2xl border border-primary/15 bg-white/80 p-1 shadow-[0_18px_36px_-24px_rgba(13,105,106,0.55)]">
+      <div className="overflow-hidden rounded-2xl border border-primary/15 bg-white/80 p-1 shadow-[0_18px_36px_-24px_rgba(23,81,208,0.55)]">
         <Image src="/logo.png" alt="김비서 로고" width={232} height={97} className="h-9 w-auto rounded-lg object-contain" />
       </div>
       {!collapsed ? (
@@ -314,7 +314,7 @@ function NavItem({
       className={cn(
         "group flex items-center gap-3 rounded-2xl border px-3 py-2.5 text-sm transition-all",
         isActive
-          ? "border-primary/15 bg-primary/95 text-primary-foreground shadow-[0_16px_32px_-22px_rgba(13,105,106,0.7)]"
+          ? "border-primary/15 bg-primary/95 text-primary-foreground shadow-[0_16px_32px_-22px_rgba(23,81,208,0.7)]"
           : "border-transparent text-muted-foreground hover:border-primary/10 hover:bg-white/70 hover:text-foreground",
         collapsed && "justify-center px-0"
       )}
@@ -493,7 +493,7 @@ function UserProfile({
       className={cn(
         "flex items-center gap-3 rounded-2xl border px-3 py-3 text-sm transition-all",
         isActive
-          ? "border-primary/15 bg-primary/95 text-primary-foreground shadow-[0_16px_32px_-22px_rgba(13,105,106,0.72)]"
+          ? "border-primary/15 bg-primary/95 text-primary-foreground shadow-[0_16px_32px_-22px_rgba(23,81,208,0.72)]"
           : "border-white/50 bg-white/65 text-muted-foreground hover:border-primary/10 hover:bg-white/80 hover:text-foreground",
         collapsed && "justify-center px-0"
       )}
@@ -584,7 +584,7 @@ export function Sidebar() {
         collapsed ? "w-20" : "w-72"
       )}
     >
-      <div className="m-3 flex h-[calc(100vh-1.5rem)] flex-col rounded-[2rem] border border-white/70 bg-sidebar/85 shadow-[0_28px_70px_-38px_rgba(13,77,77,0.4)] backdrop-blur-md">
+      <div className="m-3 flex h-[calc(100vh-1.5rem)] flex-col rounded-[2rem] border border-white/70 bg-sidebar/85 shadow-[0_28px_70px_-38px_rgba(16,52,140,0.4)] backdrop-blur-md">
         <div className="flex items-center gap-3 border-b border-sidebar-border/70 px-4 py-4">
           <Brand collapsed={collapsed} />
           <Button
@@ -650,7 +650,7 @@ export function MobileSidebar() {
           </SheetTrigger>
           <SheetContent side="left" className="w-[300px] border-r-0 bg-transparent p-3 shadow-none">
             <SheetTitle className="sr-only">김비서 메뉴</SheetTitle>
-            <div className="flex h-full flex-col rounded-[2rem] border border-white/70 bg-sidebar/95 shadow-[0_28px_70px_-38px_rgba(13,77,77,0.42)] backdrop-blur-md">
+            <div className="flex h-full flex-col rounded-[2rem] border border-white/70 bg-sidebar/95 shadow-[0_28px_70px_-38px_rgba(16,52,140,0.42)] backdrop-blur-md">
               <div className="border-b border-sidebar-border/70 px-4 py-4">
                 <Brand />
               </div>
